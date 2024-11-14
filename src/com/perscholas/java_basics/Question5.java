@@ -1,3 +1,5 @@
+package com.perscholas.java_basics;
+
 public class Question5 {
     public static void main(String[] args) {
 //    	Write a program that declares two double variables, assigns a number to each, and divides the larger by the smaller number.
@@ -6,7 +8,7 @@ public class Question5 {
         double doubleFirst = 5.9;
         double doubleSecond = 20.5;
         int myInt = (int) doubleSecond;
-        double result = doubleSecond / doubleFirst;
+        double result = myInt / doubleFirst;
         System.out.println(result);
 
     }
